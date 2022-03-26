@@ -6,3 +6,11 @@
 
 cd wesdk && python3 setup.py build_ext --inplace
 
+```python
+from wesdk import wx_work
+
+sdk = wx_work.NewSdk()
+
+wx_work.Init(self.sdk, "替换CORP_ID", "CORP_SECRET")
+
+```
